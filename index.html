@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video id="matrix-bg" autoplay loop muted playsinline>
+    <source src="martix.mp4" type="video/mp4" />
+    Your browser does not support the video 
+  </video>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="content">
+     <h1 class="type">>_ Hello, I’m unnikrishnan satheeshkumar<span class="cursor">|</span></h1>
+      <p>Web Developer & Designer</p>
+      <a href="#projects" class="btn">
+  See My Work <span class="face">👾</span>
+</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="prof.jpg" alt="Profile Photo" class="profile-pic">
+    <p>I'm a Computer Programming student at Georgian College, passionate about writing clean code, solving real-world problems, and building secure, efficient web applications.</p>
+  </section>
+  <!-- Skills Section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <span class="skill">HTML</span>
+    <span class="skill">CSS3</span>
+    <span class="skill">Responsive Design</span>
+    <span class="skill">Git & GitHub</span>
+    <span class="skill">VS Code</span>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="project">
+        <img src="arduino.jpg" alt="Project ">
+        <h3>Arduino MP3 Player</h3>
+        <p>Built a basic MP3 player using an Arduino, DFPlayer Mini module, speaker, and microSD card. It can play, pause, and skip audio files with physical buttons.</p>
+      </div>
+      <div class="project">
+        <img src="guess.jpg" alt="Project ">
+        <h3>Number Guessing Game</h3>
+        <p>A fun terminal game where users guess a random number with hints after each try.</p>
+      </div>
+      <div class="project">
+        <img src="Alpine_A310_1600VE_2773.jpg" alt="Project ">
+        <h3>Alpine A310 Webpage</h3>
+        <p>A static, responsive webpage showcasing the Alpine A310 sports car. Built with HTML and CSS, it features clean design, smooth layout, and detailed sections on the car’s history, specs, and images.</p>
+      </div>
+      <div class="project">
+        <img src="weather.png" alt="Project ">
+        <h3>Weather App</h3>
+        <p>A weather app that shows real-time weather information using the OpenWeatherMap API. Users can search by city.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p>Or email me directly at <a href="mailto:you@example.com">unnikrishnan44404@gmail.com</a></p>
+  </section>
+</body>
+</html>
